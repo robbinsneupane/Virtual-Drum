@@ -1,0 +1,156 @@
+:root {
+  --key: "";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drumKit {
+  max-width: 48rem;
+  min-width: 48rem;
+  height: 30rem;
+  position: relative;
+}
+
+.cymbols,
+.floors,
+.toms,
+.stick {
+  width: 8rem;
+  position: absolute;
+}
+
+.bells {
+  width: 4rem;
+}
+
+.kicks {
+  width: 12rem;
+}
+
+#ride {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#ride.click {
+  transform: translate(-45%);
+}
+
+#bell {
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#splash {
+  top: 2rem;
+  left: 24%;
+}
+
+#china {
+  top: 2rem;
+  right: 24%;
+}
+
+#leftCrash {
+  top: 4rem;
+  left: 7%;
+}
+
+#rightCrash {
+  top: 4rem;
+  right: 7%;
+}
+
+#tom1 {
+  top: 11rem;
+  left: 24%;
+}
+
+#tom2 {
+  top: 9rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#tom3 {
+  top: 11rem;
+  right: 24%;
+}
+
+#sticks {
+  top: 18rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#hiHat {
+  top: 20rem;
+  left: 24%;
+}
+
+#snare {
+  top: 20rem;
+  right: 24%;
+}
+
+.kicks {
+  position: absolute;
+}
+
+#leftKick {
+  top: 13rem;
+  left: 0%;
+}
+
+#rightKick {
+  top: 13rem;
+  right: 0%;
+}
+
+span {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 0.3rem;
+  padding: 0.2rem;
+  color: rgb(255, 255, 255);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  top: 0;
+  left: 0;
+}
+
+#choke {
+  position: absolute;
+  top: 28.5rem;
+  left: 50%;
+  transform: translate(-50%);
+  background: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.8rem;
+}
+
+.material-symbols-outlined {
+  position: absolute;
+  top: 30rem;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 0 2rem;
+}
